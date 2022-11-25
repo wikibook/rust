@@ -1,0 +1,12 @@
+[package]
+name = "wikibooks_rpn_calc_test_ver"
+version = "0.1.1"
+authors = ["GuessWho"]
+description = "RPN(Reverse Polish Notatio) library"
+license = "MIT"
+edition = "2021"
+include = ["src/", "README.md"]
+homepage = ""
+
+[package.metadata.docs.rs]
+rustdoc-args = ["--cfg", "doc_cfg"]s

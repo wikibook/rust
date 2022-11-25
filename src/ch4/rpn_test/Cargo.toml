@@ -1,0 +1,8 @@
+[package]
+name = "rpn_test"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+wikibooks_rpn_calc_test_ver = "0.1.1"
+

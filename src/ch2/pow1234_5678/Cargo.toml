@@ -1,0 +1,10 @@
+# 프로젝트 기본 정보를 아래에 기입
+[package]
+name = "pow1234_5678"
+version = "0.1.0"
+edition = "2021"
+
+# 의존 라이브러리(크레이트)를 아래에 기입
+[dependencies]
+num-bigint = "0.4"
+
