@@ -20,26 +20,26 @@ fn main() {
         },
         BmiRange {
             min: 18.5,
-            max: 25.0,
+            max: 23.0,
             label: "정상",
+        },
+        BmiRange {
+            min: 23.0,
+            max: 25.0,
+            label: "비만전단계",
         },
         BmiRange {
             min: 25.0,
             max: 30.0,
-            label: "비만전단계",
+            label: "1단계 비만",
         },
         BmiRange {
             min: 30.0,
             max: 35.0,
-            label: "1단계 비만",
-        },
-        BmiRange {
-            min: 35.0,
-            max: 40.0,
             label: "2단계 비만",
         },
         BmiRange {
-            min: 40.0,
+            min: 35.0,
             max: 99.0,
             label: "3단계 비만",
         },
