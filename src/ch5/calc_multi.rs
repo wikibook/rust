@@ -26,7 +26,7 @@ fn main() {
             println!("[결과] fib({} 번째 수) = {} (남은 계산={})", 
                 arg, answer, job);
             if job <= 0 {
-                show_time(Instant::now());
+                show_time(start_time);
                 break;
             }
         }
