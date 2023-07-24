@@ -46,7 +46,7 @@ impl List {
             },
             Some(old_head) => {
                 old_head.borrow_mut().prev = 
-                    Some(Rc::downgrade(&old_head));
+                    Some(Rc::downgrade(&n));
                 n.borrow_mut().next = Some(old_head);
                 self.head = Some(n);
             }
